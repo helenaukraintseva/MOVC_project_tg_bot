@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 from io import BytesIO
 from PIL import Image
-from models_utils import input_img_to_array, pca_reduce, predict_image
+from models_utils import input_img_to_array, pca_reduce, predict_image, join_files
 import pickle
 from sklearn.decomposition import PCA
 from sklearn.svm import SVC
