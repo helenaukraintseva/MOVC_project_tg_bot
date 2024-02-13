@@ -7,6 +7,8 @@ import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram import F
 from aiogram.filters import CommandStart
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from bot.models_utils import classify_image
 
 API_TOKEN = os.environ["API_TOKEN"]
