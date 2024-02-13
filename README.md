@@ -29,3 +29,8 @@ source venv_tests/bin/activate
 ```commandline
 pytest
 ```
+
+Ссылка на бота:
+```
+@Tom_and_Jerryy_bot
+```
